@@ -15,7 +15,6 @@ export default function ClientProviders({
     defaultOptions: {
       queries: {
         // Disable SSR for queries to prevent hydration mismatch
-        suspense: false,
         refetchOnWindowFocus: false,
       },
     },
