@@ -138,7 +138,7 @@ export function SearchInterface() {
   return (
     <Paper shadow="sm" p="xl" radius="md">
       <Stack gap="md">
-        <Title order={2}>LinkedIn Search</Title>
+        <Title order={2}>LinkedIn Search by Abhishek Soni</Title>
         
         <Tabs value={searchType} onChange={handleTabChange}>
           <Tabs.List>
